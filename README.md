@@ -1,3 +1,5 @@
+[![Seeds](https://www.drupal.org/files/styles/grid-3/public/project-images/Sprintive%20Seets-01.png)](https://www.drupal.org/project/seeds)
+
 ### Seeds: Kickoff distribution for SMEs
 
 Light distribution to kick off all projects regardless scale, you can use it to speed up your projects.

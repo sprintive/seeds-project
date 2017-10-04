@@ -48,9 +48,6 @@
       "@composer drupal-scaffold"
     ]
   },
-  "conflict": {
-    "drupal/drupal": "*"
-  },
   "extra": {
     "branch-alias": {
       "dev-8.x-2.x": "8.2.x-dev"
@@ -86,6 +83,11 @@
   },
   "authors": [
     {
+      "name": "Sprintive",
+      "homepage": "http://sprintive.com",
+      "role": "Supporting Organization"
+    },
+    {
       "name": "Mohammad Abdul-Qader",
       "homepage": "https://www.drupal.org/u/mabdulqader",
       "role": "Maintainer"
@@ -98,6 +100,7 @@
   ],
   "support": {
     "issues": "http://drupal.org/project/issues/seeds",
-    "source": "http://cgit.drupalcode.org/seeds"
+    "source": "http://cgit.drupalcode.org/seeds",
+    "email": "info@sprintive.com"
   }
 }

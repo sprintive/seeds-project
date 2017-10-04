@@ -6,6 +6,9 @@ Light distribution to kick off all projects regardless scale, you can use it to 
 
 Seeds focusing on Arabic website with RTL interfaces so if you have any issue with your Arabic language website you are more than welcome to contribute with us.
 
-##### Sponsored and developed by:
+
+#### Sponsored and developed by:
 
 [![Sprintive](https://www.drupal.org/files/styles/grid-3/public/sprintive-drupal.png?itok=EwOUBjIZ)](http://sprintive.com)
+
+Sprintive is a web solution provider which transform ideas into realities, where humans are the center of everything, and Drupal is the heart of our actions, it has built and delivered Drupal projects focusing on a deep understanding of business goals and objective to help companies innovate and grow.

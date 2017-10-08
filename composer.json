@@ -19,12 +19,25 @@
     "composer/composer": "^1.3",
     "drush/drush": "~8.1",
     "drupal/console": "1.0.1",
-    "drupal/admin_toolbar": "1.x-dev#fa374ffa4339f8fde91e658f43ccf975604198c5"
+    "drupal/admin_toolbar": "1.x-dev#fa374ffa4339f8fde91e658f43ccf975604198c5",
+    "l3pp4rd/doctrine-extensions": "master"
   },
   "repositories": [
     {
       "type": "composer",
       "url": "https://packages.drupal.org/8"
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "l3pp4rd/doctrine-extensions",
+        "version": "master",
+        "source": {
+          "url": "https://github.com/l3pp4rd/DoctrineExtensions.git",
+          "type": "git",
+          "reference": "master"
+        }
+      }
     }
   ],
   "config": {

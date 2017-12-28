@@ -19,7 +19,6 @@
     "composer/composer": "^1.3",
     "drush/drush": "~8.1",
     "drupal/console": "1.0.1",
-    "drupal/admin_toolbar": "1.x-dev#fa374ffa4339f8fde91e658f43ccf975604198c5",
     "kenwheeler/slick": "1.6.0",
     "gdsmith/easing": "1.4.1",
     "dinbror/blazy": "1.8.2"

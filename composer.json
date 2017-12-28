@@ -80,13 +80,20 @@
     "secure-http": false,
     "optimize-autoloader": true
   },
+  "autoload": {
+    "classmap": [
+      "scripts/composer/ScriptHandler.php"
+    ]
+  },
   "scripts": {
     "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
     "post-install-cmd": [
-      "@composer drupal-scaffold"
+      "@composer drupal-scaffold",
+      "Seeds\\composer\\ScriptHandler::removeGitDirectories"
     ],
     "post-update-cmd": [
-      "@composer drupal-scaffold"
+      "@composer drupal-scaffold",
+      "Seeds\\composer\\ScriptHandler::removeGitDirectories"
     ]
   },
   "extra": {

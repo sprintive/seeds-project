@@ -21,7 +21,8 @@
     "drupal/console": "1.0.1",
     "kenwheeler/slick": "1.6.0",
     "gdsmith/easing": "1.4.1",
-    "dinbror/blazy": "1.8.2"
+    "dinbror/blazy": "1.8.2",
+    "drupal/page_manager": "4.x-dev#0ad88858840cc99c8adef63e577c0f989bc3ab2c"
   },
   "repositories": [
     {
@@ -133,11 +134,6 @@
     {
       "name": "Mohammad Abdul-Qader",
       "homepage": "https://www.drupal.org/u/mabdulqader",
-      "role": "Maintainer"
-    },
-    {
-      "name": "Mohammad AlQanneh",
-      "homepage": "https://www.drupal.org/u/mqanneh",
       "role": "Maintainer"
     }
   ],

@@ -13,7 +13,7 @@
     "drupal/drupal-library-installer-plugin": "0.3",
     "webflo/drupal-finder": "1.0",
     "webmozart/path-util": "2.3",
-    "sprintive/seeds": "8.5.1",
+    "sprintive/seeds": "8.5.2",
     "drupal/coder": "8.*",
     "symfony/css-selector": "~2.8",
     "composer/composer": "^1.3",

@@ -1,0 +1,55 @@
+# ignore configuration files that may contain sensitive information.
+public_html/sites/*/local.settings.inc
+
+
+# Ignore paths that contain user-generated content.
+public_html/sites/*/files
+public_html/sites/*/private
+
+# stop ignoring default_images directory
+!public_html/sites/*/files
+public_html/sites/*/files/*
+!public_html/sites/*/files/default_images
+
+# ignore vim swp files and gedit temp files
+*.swp
+*.*~
+.vim
+
+# eclipse settings files
+.project
+.pydevproject
+.settings
+.buildpath
+
+# netbeans settings files
+nbproject
+
+# ignore Mac folder settings files
+.DS_Store
+
+# and some random server stuff
+.bash_history
+.bashrc
+errors.log
+errors_log
+.bash_logout
+.bash_profile
+.contactemail
+.cpanel
+.cphorde
+.dns
+.lastlogin
+.ssh
+.viminfo
+.zshrc
+.drush
+.gitconfig
+drush-backups
+logs
+tmp
+access-logs
+cpbackup-exclude.conf
+etc
+ssl
+www

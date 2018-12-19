@@ -22,7 +22,6 @@
     "kenwheeler/slick": "1.6.0",
     "gdsmith/easing": "1.4.1",
     "dinbror/blazy": "1.8.2",
-    "drupal/ds": "3.x-dev#fe1da24ab36369ea2227b6e2c026fe8fb9ca1ef0",
     "drupal/security_review": "1.x-dev#9b8a34a21cac85913845df4eebb9a05c69de82d8"
   },
   "repositories": [

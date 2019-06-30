@@ -16,13 +16,11 @@ public_html/sites/*/files/*
 *.*~
 .vim
 
-# eclipse settings files
+# IDE settings files
 .project
 .pydevproject
 .settings
 .buildpath
-
-# netbeans settings files
 nbproject
 
 # ignore Mac folder settings files
@@ -53,3 +51,4 @@ cpbackup-exclude.conf
 etc
 ssl
 www
+node_modules

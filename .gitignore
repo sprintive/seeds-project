@@ -52,3 +52,4 @@ etc
 ssl
 www
 node_modules
+.vscode

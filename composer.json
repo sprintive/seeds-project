@@ -104,6 +104,36 @@
 					"type": "zip"
 				}
 			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "ckeditor-plugin/fakeobjects",
+				"version": "4.14.0",
+				"type": "drupal-library",
+				"dist": {
+					"url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip",
+					"type": "zip"
+				},
+				"require": {
+					"composer/installers": "~1.0"
+				}
+			}
+		},
+		{
+			"type": "package",
+			"package": {
+				"name": "ckeditor-plugin/iframe",
+				"version": "4.14.0",
+				"type": "drupal-library",
+				"dist": {
+					"url": "https://download.ckeditor.com/iframe/releases/iframe_4.14.0.zip",
+					"type": "zip"
+				},
+				"require": {
+					"composer/installers": "~1.0"
+				}
+			}
 		}
   ],
   "config": {

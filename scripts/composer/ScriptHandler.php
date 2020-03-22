@@ -11,10 +11,10 @@ class ScriptHandler {
    * Get Drupal root directory.
    *
    * @param string $root
-   *    Project root directory.
+   *   Project root directory.
    *
    * @return string
-   *    Drupal root path.
+   *   Drupal root path.
    */
   protected static function getDrupalRoot($root) {
     return $root . '/public_html';

@@ -34,6 +34,10 @@
       "url": "https://packages.drupal.org/8"
     },
     {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }, 
+    {
       "type": "package",
       "package": {
         "name": "kenwheeler/slick",

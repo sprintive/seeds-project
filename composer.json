@@ -20,14 +20,14 @@
     "drupal/console": "1.9.5",
     "kenwheeler/slick": "1.6.0",
     "gdsmith/easing": "1.4.1",
-		"dinbror/blazy": "1.8.2",
+    "dinbror/blazy": "1.8.2",
     "dimsemenov/photoswipe": "4.1.3",
     "ckeditor-plugin/fakeobjects": "4.14.0",
     "ckeditor-plugin/iframe": "4.14.0"
   },
-	"patchLevel": {
-		"drupal/core": "-p2"
-	},
+  "patchLevel": {
+    "drupal/core": "-p2"
+  },
   "repositories": [
     {
       "type": "composer",
@@ -36,7 +36,7 @@
     {
       "type": "composer",
       "url": "https://asset-packagist.org"
-    }, 
+    },
     {
       "type": "package",
       "package": {
@@ -81,52 +81,52 @@
           "composer/installers": "~1.0"
         }
       }
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "dimsemenov/photoswipe",
-				"version": "4.1.3",
-				"type": "drupal-library",
-				"dist": {
-					"url": "https://github.com/dimsemenov/PhotoSwipe/archive/v4.1.3.zip",
-					"type": "zip"
-				},
-				"require": {
-					"composer/installers": "~1.0"
-				}
-			}
     },
     {
-			"type": "package",
-			"package": {
-				"name": "ckeditor-plugin/fakeobjects",
-				"version": "4.14.0",
-				"type": "drupal-library",
-				"dist": {
-					"url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip",
-					"type": "zip"
-				},
-				"require": {
-					"composer/installers": "~1.0"
-				}
-			}
-		},
-		{
-			"type": "package",
-			"package": {
-				"name": "ckeditor-plugin/iframe",
-				"version": "4.14.0",
-				"type": "drupal-library",
-				"dist": {
-					"url": "https://download.ckeditor.com/iframe/releases/iframe_4.14.0.zip",
-					"type": "zip"
-				},
-				"require": {
-					"composer/installers": "~1.0"
-				}
-			}
-		}
+      "type": "package",
+      "package": {
+        "name": "dimsemenov/photoswipe",
+        "version": "4.1.3",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/dimsemenov/PhotoSwipe/archive/v4.1.3.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ckeditor-plugin/fakeobjects",
+        "version": "4.14.0",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://download.ckeditor.com/fakeobjects/releases/fakeobjects_4.14.0.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ckeditor-plugin/iframe",
+        "version": "4.14.0",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://download.ckeditor.com/iframe/releases/iframe_4.14.0.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    }
   ],
   "config": {
     "bin-dir": "bin/",
@@ -152,10 +152,10 @@
   "extra": {
     "branch-alias": {
       "dev-8.x-7.x": "8.7.x-dev"
-		},
-		"installer-types": [
-			"npm-asset"
-		],
+    },
+    "installer-types": [
+      "npm-asset"
+    ],
     "installer-paths": {
       "public_html/core": [
         "type:drupal-core"
@@ -164,10 +164,10 @@
         "type:drupal-library",
         "type:bower-asset",
         "type:npm-asset"
-			],
-			"public_html/libraries/ace": [
-				"npm-asset/ace-builds"
-			],
+      ],
+      "public_html/libraries/ace": [
+        "npm-asset/ace-builds"
+      ],
       "public_html/modules/contrib/{$name}": [
         "type:drupal-module"
       ],
@@ -182,7 +182,12 @@
       ]
     },
     "enable-patching": true,
-    "composer-exit-on-patch-failure": false
+    "composer-exit-on-patch-failure": false,
+    "drupal-scaffold": {
+      "locations": {
+        "web-root": "./public_html"
+      }
+    }
   },
   "authors": [
     {

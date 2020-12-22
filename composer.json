@@ -6,7 +6,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "php": ">=7.1",
+    "php": "^7.3",
     "cweagans/composer-patches": "^1.6.4",
     "drupal/core-composer-scaffold": "^9.0",
     "oomphinc/composer-installers-extender": "^1||^2",

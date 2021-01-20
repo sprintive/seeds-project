@@ -141,12 +141,15 @@
   },
   "scripts": {
     "drupal-scaffold": "DrupalComposer\\DrupalScaffold\\Plugin::scaffold",
+    "init-translations-yml": "Seeds\\composer\\ScriptHandler::moveTranslationsYmlFile",
     "post-install-cmd": [
       "@composer drupal-scaffold",
+      "@composer init-translations-yml",
       "Seeds\\composer\\ScriptHandler::removeGitDirectories"
     ],
     "post-update-cmd": [
       "@composer drupal-scaffold",
+      "@composer init-translations-yml",
       "Seeds\\composer\\ScriptHandler::removeGitDirectories"
     ]
   },

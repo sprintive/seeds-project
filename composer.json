@@ -188,6 +188,11 @@
     "drupal-scaffold": {
       "locations": {
         "web-root": "./public_html"
+      },
+      "file-mapping": {
+        "[web-root]/sites/default/development.services.yml": "assets/development.services.yml",
+        "[web-root]/sites/default/default.settings.php": "assets/default.settings.php",
+        "[web-root]/sites/default/settings.fast404.php": "assets/settings.fast404.php"
       }
     }
   },

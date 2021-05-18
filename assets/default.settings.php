@@ -778,6 +778,10 @@ $settings['trusted_host_patterns'] = [
 // If there is local.settings.inc, require it.
 $local_settings = dirname(__FILE__) . '/local.settings.inc';
 if (file_exists($local_settings)) {
+  // Disable CSS and JS preprocess.
+  $config['system.performance']['css']['preprocess'] = FALSE;
+  $config['system.performance']['js']['preprocess'] = FALSE;
+
   // Development trusted hosts
   $settings['trusted_host_patterns'] = array(
     '^website\.local$',

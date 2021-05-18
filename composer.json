@@ -190,9 +190,37 @@
         "web-root": "./public_html"
       },
       "file-mapping": {
-        "[web-root]/sites/default/development.services.yml": "assets/development.services.yml",
         "[web-root]/sites/default/default.settings.php": "assets/default.settings.php",
-        "[web-root]/sites/default/settings.fast404.php": "assets/settings.fast404.php"
+        "[web-root]/sites/default/development.services.yml": {
+          "mode": "replace",
+          "path": "assets/development.services.yml",
+          "overwrite": false
+        },
+        "[web-root]/sites/default/settings.fast404.php": {
+          "mode": "replace",
+          "path": "assets/settings.fast404.php",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/404.html": {
+          "mode": "replace",
+          "path": "assets/404/404.html",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/404-ar.html": {
+          "mode": "replace",
+          "path": "assets/404/404-ar.html",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/style.css": {
+          "mode": "replace",
+          "path": "assets/404/style.css",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/style-rtl.css": {
+          "mode": "replace",
+          "path": "assets/404/style-rtl.css",
+          "overwrite": false
+        }
       }
     }
   },

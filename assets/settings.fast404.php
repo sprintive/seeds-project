@@ -93,7 +93,7 @@ $settings['fast404_exts'] = '/^(?!robots)^(?!sites/default/files/private).*\.(tx
  *
  * Default value for this setting is FALSE.
  */
-# $settings['fast404_not_found_exception'] = TRUE;
+$settings['fast404_not_found_exception'] = TRUE;
 
 /**
  * Path checking. USE AT YOUR OWN RISK.
@@ -145,7 +145,10 @@ $settings['fast404_exts'] = '/^(?!robots)^(?!sites/default/files/private).*\.(tx
  *
  * Default value for this setting is FALSE.
  */
-# $settings['fast404_HTML_error_page'] = './my_page.html';
+$settings['fast404_HTML_error_page'] = [
+  'en' => './themes/404/404.html',
+  'ar' => './themes/404/404-ar.html',
+];
 
 /**
  * Load the fast404.inc file.

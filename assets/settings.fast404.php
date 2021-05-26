@@ -36,7 +36,7 @@ $settings['fast404_exts'] = '/^(?!robots).*\.(txt|png|gif|jpe?g|css|js|ico|swf|f
  * If you use a private file system use the settings variable below and change
  * the 'sites/default/private' to your actual private files path.
  */
-$settings['fast404_exts'] = '/^(?!robots)^(?!sites/default/files/private).*\.(txt|png|gif|jpe?g|css|js|ico|swf|flv|cgi|bat|pl|dll|exe|asp)$/i';
+#$settings['fast404_exts'] = '/^(?!robots)^(?!sites/default/files/private).*\.(txt|png|gif|jpe?g|css|js|ico|swf|flv|cgi|bat|pl|dll|exe|asp)$/i';
 
 /**
  * Allow anonymous users to hit URLs containing 'imagecache' even if the file

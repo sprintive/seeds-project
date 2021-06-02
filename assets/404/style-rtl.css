@@ -1,0 +1,16 @@
+.main-container {
+  font-family: 'Tajawal', sans-serif;
+}
+
+.status-code {
+  margin-bottom: -15px;
+}
+
+.page-not-found {
+  font-size: 22px;
+  margin: 0;
+}
+
+.info a {
+  font-size: 16px;
+}

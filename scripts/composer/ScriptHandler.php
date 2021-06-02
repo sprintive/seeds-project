@@ -24,8 +24,18 @@ class ScriptHandler {
    * Remove .git folder from modules, themes, profiles of development branches.
    */
   public static function removeGitDirectories() {
-    $root = static::getDrupalRoot(getcwd());
-    exec('find ' . $root . ' -name \'.git\' | xargs rm -rf');
+    $drupal_root = static::getDrupalRoot(getcwd());
+    exec('find ' . $drupal_root . ' -name \'.git\' | xargs rm -rf');
+  }
+
+  /**
+   * Moves the 'translations.yml' file from the root to Drupal Root.
+   */
+  public static function moveTranslationsYmlFile() {
+    $root = getcwd();
+    if (file_exists("$root/translations.yml")) {
+      exec("mv $root/translations.yml $root/public_html/translations.yml");
+    }
   }
 
 }

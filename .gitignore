@@ -1,6 +1,9 @@
 # ignore configuration files that may contain sensitive information.
 public_html/sites/*/local.settings.inc
 
+# Ignore the development services yaml file.
+public_html/sites/*/development.services.yml
+
 
 # Ignore paths that contain user-generated content.
 public_html/sites/*/files

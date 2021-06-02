@@ -141,12 +141,18 @@
   },
   "scripts": {
     "drupal-scaffold": "@composer drupal:scaffold",
+<<<<<<< HEAD
+=======
+    "init-translations-yml": "Seeds\\composer\\ScriptHandler::moveTranslationsYmlFile",
+>>>>>>> 8.9.x
     "post-install-cmd": [
       "@composer drupal-scaffold",
+      "@composer init-translations-yml",
       "Seeds\\composer\\ScriptHandler::removeGitDirectories"
     ],
     "post-update-cmd": [
       "@composer drupal-scaffold",
+      "@composer init-translations-yml",
       "Seeds\\composer\\ScriptHandler::removeGitDirectories"
     ]
   },
@@ -187,6 +193,42 @@
     "drupal-scaffold": {
       "locations": {
         "web-root": "./public_html"
+<<<<<<< HEAD
+=======
+      },
+      "file-mapping": {
+        "[web-root]/sites/default/default.settings.php": "assets/default.settings.php",
+        "[web-root]/sites/default/development.services.yml": {
+          "mode": "replace",
+          "path": "assets/development.services.yml",
+          "overwrite": false
+        },
+        "[web-root]/sites/default/settings.fast404.php": {
+          "mode": "replace",
+          "path": "assets/settings.fast404.php",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/404.html": {
+          "mode": "replace",
+          "path": "assets/404/404.html",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/404-ar.html": {
+          "mode": "replace",
+          "path": "assets/404/404-ar.html",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/style.css": {
+          "mode": "replace",
+          "path": "assets/404/style.css",
+          "overwrite": false
+        },
+        "[web-root]/themes/404/style-rtl.css": {
+          "mode": "replace",
+          "path": "assets/404/style-rtl.css",
+          "overwrite": false
+        }
+>>>>>>> 8.9.x
       }
     }
   },

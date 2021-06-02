@@ -762,7 +762,7 @@ $settings['entity_update_batch_size'] = 50;
 $settings['entity_update_backup'] = TRUE;
 
 // Configurations path.
-$config_directories['sync'] = 'sites/default/config';
+$settings["config_sync_directory"] = 'sites/default/config';
 
 // Temp file path.
 $settings['file_temp_path'] = 'sites/default/files/path';

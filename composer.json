@@ -141,10 +141,7 @@
   },
   "scripts": {
     "drupal-scaffold": "@composer drupal:scaffold",
-<<<<<<< HEAD
-=======
     "init-translations-yml": "Seeds\\composer\\ScriptHandler::moveTranslationsYmlFile",
->>>>>>> 8.9.x
     "post-install-cmd": [
       "@composer drupal-scaffold",
       "@composer init-translations-yml",
@@ -193,8 +190,6 @@
     "drupal-scaffold": {
       "locations": {
         "web-root": "./public_html"
-<<<<<<< HEAD
-=======
       },
       "file-mapping": {
         "[web-root]/sites/default/default.settings.php": "assets/default.settings.php",
@@ -228,7 +223,6 @@
           "path": "assets/404/style-rtl.css",
           "overwrite": false
         }
->>>>>>> 8.9.x
       }
     }
   },

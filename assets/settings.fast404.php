@@ -68,7 +68,7 @@ $settings['fast404_exts'] = '/^(?!robots).*\.(txt|png|gif|jpe?g|css|js|ico|swf|f
  *
  * Default value for this setting is FALSE.
  */
-# $settings['fast404_string_whitelisting'] = ['cdn/farfuture', '/advagg_'];
+$settings['fast404_string_whitelisting'] = ['system/files'];
 
 /**
  * When Fast 404 checks for missing file assets, it will return a response

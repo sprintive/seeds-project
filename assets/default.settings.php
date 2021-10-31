@@ -810,3 +810,8 @@ $fast404_settings = dirname(__FILE__) . '/settings.fast404.php';
 if (file_exists($fast404_settings)) {
   include $fast404_settings;
 }
+
+// Set the locale, this will fix webp images with arabic names.
+// @see https://stackoverflow.com/questions/4451664/make-php-pathinfo-return-the-correct-filename-if-the-filename-is-utf-8
+// If you're not using webp with unicode names, comment this line of code.
+setlocale(LC_CTYPE,'en_US.UTF-8');

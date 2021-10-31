@@ -25,7 +25,7 @@ class ScriptHandler {
    */
   public static function removeGitDirectories() {
     $drupal_root = static::getDrupalRoot(getcwd());
-    exec('find ' . $drupal_root . ' -name \'.git\' | xargs rm -rf');
+    exec(sprintf("find %s -name '.git' -not -path '%s' | xargs rm -rf", $drupal_root, "$drupal_root/modules/custom/*"));
   }
 
   /**

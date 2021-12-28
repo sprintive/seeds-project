@@ -132,7 +132,14 @@
   "config": {
     "bin-dir": "bin/",
     "secure-http": false,
-    "optimize-autoloader": true
+    "optimize-autoloader": true,
+    "allow-plugins": {
+      "composer/installers": true,
+      "cweagans/composer-patches": true,
+      "oomphinc/composer-installers-extender": true,
+      "drupal/console-extend-plugin": true,
+      "drupal/core-composer-scaffold": true
+    }
   },
   "autoload": {
     "classmap": [

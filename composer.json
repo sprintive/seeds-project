@@ -229,6 +229,11 @@
           "mode": "replace",
           "path": "assets/404/style-rtl.css",
           "overwrite": false
+        },
+        "drush/drush.yml": {
+          "mode": "replace",
+          "path": "assets/drush.yml",
+          "overwrite": false
         }
       }
     }

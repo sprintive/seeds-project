@@ -7,4 +7,3 @@ command:
       options:
         structure-tables-list: 'search_total,search_index,redirect_404,search_api_db_search_inde*'
         skip-tables-key: 'cache,cache_*'
-        extra-dump: "| sed -e 's/utf8mb4_0900_ai_ci/utf8mb4_general_ci/g'"

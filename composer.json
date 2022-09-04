@@ -10,7 +10,7 @@
     "cweagans/composer-patches": "^1.6.4",
     "drupal/core-composer-scaffold": "^9.0",
     "oomphinc/composer-installers-extender": "^1||^2",
-    "composer/installers": "1.9",
+    "composer/installers": "1.10",
     "webflo/drupal-finder": "^1.2",
     "webmozart/path-util": "2.3",
     "sprintive/seeds": "11.4.x-dev",

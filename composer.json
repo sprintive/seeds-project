@@ -13,7 +13,7 @@
     "composer/installers": "1.10",
     "webflo/drupal-finder": "^1.2",
     "webmozart/path-util": "2.3",
-    "sprintive/seeds": "12.0.x-dev",
+    "sprintive/seeds": "12.0.x-dev#211373466da0156e9c06da30994e14fbb1a32ad0",
     "drupal/coder": "8.*",
     "symfony/css-selector": "~4",
     "composer/composer": "^2",

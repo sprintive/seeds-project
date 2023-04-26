@@ -771,9 +771,10 @@ $settings['file_temp_path'] = 'sites/default/files/path';
 $settings['file_private_path'] = 'sites/default/files/private';
 
 // Production trusted hosts
-$settings['trusted_host_patterns'] = [
-  '^website\.com$',
-];
+$settings['trusted_host_patterns'] = array(
+  '^.*\.local$',
+  '^localhost$',
+);
 
 // If there is local.settings.inc, require it.
 $local_settings = dirname(__FILE__) . '/local.settings.inc';
@@ -781,12 +782,6 @@ if (file_exists($local_settings)) {
   // Disable CSS and JS preprocess.
   $config['system.performance']['css']['preprocess'] = FALSE;
   $config['system.performance']['js']['preprocess'] = FALSE;
-
-  // Development trusted hosts
-  $settings['trusted_host_patterns'] = array(
-    '^website\.local$',
-    '^localhost$',
-  );
 
   require $local_settings;
 } else {

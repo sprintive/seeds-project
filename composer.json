@@ -30,7 +30,19 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packages.drupal.org/8"
+      "url": "https://packages.drupal.org/8",
+      "exclude": [
+        "drupal/fast_404",
+        "drupal/ckeditor_iframe"
+      ]
+    },
+    {
+      "type": "git",
+      "url": "https://git.drupalcode.org/issue/fast_404-3287465.git"
+    },
+    {
+      "type": "git",
+      "url": "https://git.drupalcode.org/issue/ckeditor_iframe-3286496.git"
     },
     {
       "type": "composer",

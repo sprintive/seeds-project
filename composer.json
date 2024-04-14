@@ -147,7 +147,8 @@
       "cweagans/composer-patches": true,
       "oomphinc/composer-installers-extender": true,
       "drupal/console-extend-plugin": true,
-      "drupal/core-composer-scaffold": true
+      "drupal/core-composer-scaffold": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
     }
   },
   "autoload": {

@@ -19,9 +19,7 @@
     "kenwheeler/slick": "1.6.0",
     "gdsmith/easing": "1.4.1",
     "dinbror/blazy": "1.8.2",
-    "dimsemenov/photoswipe": "4.1.3",
-    "ckeditor-plugin/fakeobjects": "4.14.0",
-    "ckeditor-plugin/iframe": "4.14.0"
+    "dimsemenov/photoswipe": "4.1.3"
   },
   "patchLevel": {
     "drupal/core": "-p2"
@@ -29,11 +27,7 @@
   "repositories": [
     {
       "type": "composer",
-      "url": "https://packages.drupal.org/8",
-      "exclude": [
-        "drupal/fast_404",
-        "drupal/ckeditor_iframe"
-      ]
+      "url": "https://packages.drupal.org/8"
     },
     {
       "type": "git",

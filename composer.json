@@ -15,7 +15,7 @@
     "drupal/coder": "8.*",
     "symfony/css-selector": "~4",
     "composer/composer": "^2",
-    "drush/drush": "^12",
+    "drush/drush": "^13",
     "kenwheeler/slick": "1.6.0",
     "gdsmith/easing": "1.4.1",
     "dinbror/blazy": "1.8.2",

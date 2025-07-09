@@ -1,58 +1,115 @@
-# ignore configuration files that may contain sensitive information.
+# ===============================
+# Drupal-specific ignored files
+# ===============================
+# Drupal sensitive and local config files
 public_html/sites/*/local.settings.inc
-
-# Ignore the development services yaml file.
+public_html/sites/*/settings.local.php
 public_html/sites/*/development.services.yml
+public_html/INSTALL.txt
+public_html/README.md
+public_html/example.gitignore
+public_html/autoload.php
+public_html/index.php
+public_html/robots.txt
+public_html/update.php
+public_html/web.config
 
-
-# Ignore paths that contain user-generated content.
+# Ignore public and private file directories
 public_html/sites/*/files
 public_html/sites/*/private
 
-# stop ignoring default_images directory
-!public_html/sites/*/files
-public_html/sites/*/files/*
+# Allow only default_images inside files
 !public_html/sites/*/files/default_images
 
-# ignore vim swp files and gedit temp files
-*.swp
-*.*~
-.vim
+# Ignore core and contrib components managed by Composer
+public_html/core/
+public_html/modules/contrib/
+public_html/profiles/
+public_html/themes/contrib/
+vendor/
+node_modules/
 
-# IDE settings files
+# Libraries not committed to the repo
+public_html/libraries/
+
+# ===============================
+# IDE and editor metadata
+# ===============================
+# PHPStorm / WebStorm / IntelliJ
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# NetBeans
+nbproject/
+
+# Eclipse
 .project
 .pydevproject
-.settings
+.settings/
 .buildpath
-nbproject
 
-# ignore Mac folder settings files
+# Vim / Gedit
+*.swp
+*.*~
+.vim/
+.viminfo
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ===============================
+# OS and environment junk files
+# ===============================
+# macOS
 .DS_Store
 
-# and some random server stuff
+# Linux
+.directory
+.Trash-*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ===============================
+# Shell and server environment files
+# ===============================
 .bash_history
 .bashrc
-errors.log
-errors_log
-.bash_logout
 .bash_profile
+.bash_logout
+.zshrc
+.zsh_history
+
+# CPanel / Hosting server
 .contactemail
-.cpanel
-.cphorde
+.cpanel/
+.cphorde/
 .dns
 .lastlogin
-.ssh
-.viminfo
-.zshrc
-.drush
-.gitconfig
-drush-backups
-logs
-tmp
-access-logs
+.errors_log
+errors.log
+logs/
+tmp/
+access-logs/
 cpbackup-exclude.conf
-etc
-ssl
-www
-node_modules
-.vscode
+etc/
+ssl/
+www/
+
+# ===============================
+# Drupal tools and backups
+# ===============================
+.drush/
+drush-backups/
+
+# ===============================
+# Custom scripts or binaries
+# ===============================
+bin/

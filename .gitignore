@@ -117,6 +117,8 @@ www/
 # ===============================
 .drush/
 drush-backups/
+.editorconfig
+.gitattributes
 
 # ===============================
 # Custom scripts or binaries

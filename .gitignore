@@ -13,6 +13,15 @@ public_html/index.php
 public_html/robots.txt
 public_html/update.php
 public_html/web.config
+public_html/.csslintrc
+public_html/.editorconfig
+public_html/.eslintignore
+public_html/.eslintrc.json
+public_html/.gitattributes
+public_html/.htaccess
+public_html/.ht.router.php
+public_html/update.php
+public_html/web.config
 
 # Ignore public and private file directories
 public_html/sites/*/files

@@ -7,19 +7,19 @@
   "prefer-stable": true,
   "require": {
     "php": "^8.3",
-    "oomphinc/composer-installers-extender": "^1||^2",
-    "composer/installers": "1.10",
-    "webflo/drupal-finder": "^1.2",
-    "webmozart/path-util": "2.3",
-    "sprintive/seeds": "^13.0.2",
-    "drupal/coder": "8.*",
-    "symfony/css-selector": "~4",
     "composer/composer": "^2",
+    "composer/installers": "1.10",
+    "oomphinc/composer-installers-extender": "^1||^2",
+    "webflo/drupal-finder": "^1.2",
+    "drupal/coder": "8.*",
     "drush/drush": "^13",
+    "symfony/css-selector": "~4",
     "kenwheeler/slick": "1.6.0",
     "gdsmith/easing": "1.4.1",
     "dinbror/blazy": "1.8.2",
-    "dimsemenov/photoswipe": "4.1.3"
+    "dimsemenov/photoswipe": "5.4.4",
+    "dimsemenov/photoswipe-dynamic-caption-plugin": "^1.0",
+    "sprintive/seeds": "^13.0.2"
   },
   "patchLevel": {
     "drupal/core": "-p2"
@@ -40,7 +40,7 @@
         "version": "1.6.0",
         "type": "drupal-library",
         "dist": {
-          "url": "https://github.com/kenwheeler/slick/archive/1.6.0.zip",
+          "url": "https://github.com/kenwheeler/slick/archive/1.8.0.zip",
           "type": "zip"
         },
         "require": {
@@ -79,19 +79,34 @@
       }
     },
     {
-      "type": "package",
-      "package": {
-        "name": "dimsemenov/photoswipe",
-        "version": "4.1.3",
+    "type": "package",
+    "package": {
+        "name": "dimsemenov/photoswipe-dynamic-caption-plugin",
+        "version": "1.2.7",
         "type": "drupal-library",
         "dist": {
-          "url": "https://github.com/dimsemenov/PhotoSwipe/archive/v4.1.3.zip",
-          "type": "zip"
+            "url": "https://github.com/dimsemenov/photoswipe-dynamic-caption-plugin/archive/1.2.7.zip",
+            "type": "zip"
         },
         "require": {
-          "composer/installers": "~1.0"
+            "composer/installers": "~1.0"
         }
-      }
+    }
+    },
+    {
+        "type": "package",
+        "package": {
+            "name": "dimsemenov/photoswipe",
+            "version": "5.4.4",
+            "type": "drupal-library",
+            "dist": {
+                "url": "https://github.com/dimsemenov/PhotoSwipe/archive/v5.4.4.zip",
+                "type": "zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            }
+        }
     }
   ],
   "config": {

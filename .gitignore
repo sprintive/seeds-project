@@ -96,7 +96,9 @@ Desktop.ini
 .zshrc
 .zsh_history
 
+# ===============================
 # CPanel / Hosting server
+# ===============================
 .contactemail
 .cpanel/
 .cphorde/
@@ -110,7 +112,14 @@ access-logs/
 cpbackup-exclude.conf
 etc/
 ssl/
-www/
+www
+.imunify_patch_id
+.myimunify_id
+.ssh/
+.trash/
+.wp-toolkit-identifier
+access-logs
+
 
 # ===============================
 # Drupal tools and backups

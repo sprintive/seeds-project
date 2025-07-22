@@ -119,6 +119,7 @@ www
 .trash/
 .wp-toolkit-identifier
 access-logs
+mail
 
 
 # ===============================

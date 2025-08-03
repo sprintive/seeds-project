@@ -106,6 +106,7 @@ Desktop.ini
 .lastlogin
 .errors_log
 errors.log
+error_log
 logs/
 tmp/
 access-logs/

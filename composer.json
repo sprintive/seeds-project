@@ -15,6 +15,7 @@
     "drush/drush": "^13",
     "symfony/css-selector": "~4",
     "kenwheeler/slick": "1.8.0",
+    "npm-asset/swiper": "11.1.14",
     "gdsmith/easing": "1.4.1",
     "dinbror/blazy": "1.8.2",
     "dimsemenov/photoswipe": "5.4.4",
@@ -48,6 +49,21 @@
         }
       }
     },
+    {
+      "type": "package",
+      "package": {
+        "name": "npm-asset/swiper",
+        "version": "11.1.14",
+        "type": "drupal-library",
+         "dist": {
+            "url": "https://registry.npmjs.org/swiper/-/swiper-11.1.14.tgz",
+            "type": "tar"
+          },
+          "require": {
+            "composer/installers": "~1.0"
+          }
+        }
+      },
     {
       "type": "package",
       "package": {

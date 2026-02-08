@@ -16,6 +16,7 @@
     "symfony/css-selector": "~4",
     "kenwheeler/slick": "1.8.0",
     "npm-asset/swiper": "11.1.14",
+    "ajaxorg/ace-builds": "1.32.6",
     "gdsmith/easing": "1.4.1",
     "dinbror/blazy": "1.8.2",
     "dimsemenov/photoswipe": "5.4.4",
@@ -42,6 +43,21 @@
         "type": "drupal-library",
         "dist": {
           "url": "https://github.com/kenwheeler/slick/archive/1.8.0.zip",
+          "type": "zip"
+        },
+        "require": {
+          "composer/installers": "~1.0"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "ajaxorg/ace-builds",
+        "version": "1.32.6",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/ajaxorg/ace-builds/archive/refs/tags/v1.32.6.zip",
           "type": "zip"
         },
         "require": {

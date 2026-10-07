@@ -23,9 +23,6 @@
     "dimsemenov/photoswipe-dynamic-caption-plugin": "^1.0",
     "sprintive/seeds": "^13.0.2"
   },
-  "patchLevel": {
-    "drupal/core": "-p2"
-  },
   "repositories": [
     {
       "type": "composer",
@@ -151,7 +148,8 @@
       "oomphinc/composer-installers-extender": true,
       "drupal/console-extend-plugin": true,
       "drupal/core-composer-scaffold": true,
-      "dealerdirect/phpcodesniffer-composer-installer": true
+      "dealerdirect/phpcodesniffer-composer-installer": true,
+      "symfony/runtime": true
     }
   },
   "autoload": {

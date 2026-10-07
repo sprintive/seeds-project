@@ -36,7 +36,7 @@
       "type": "package",
       "package": {
         "name": "kenwheeler/slick",
-        "version": "1.6.0",
+        "version": "1.8.0",
         "type": "drupal-library",
         "dist": {
           "url": "https://github.com/kenwheeler/slick/archive/1.8.0.zip",

@@ -21,7 +21,7 @@
     "dinbror/blazy": "1.8.2",
     "dimsemenov/photoswipe": "5.4.4",
     "dimsemenov/photoswipe-dynamic-caption-plugin": "^1.0",
-    "sprintive/seeds": "^13.0.2"
+    "sprintive/seeds": "^13.1.5"
   },
   "repositories": [
     {
